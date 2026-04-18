@@ -6,7 +6,7 @@ import java.awt.*;
 public class YourName_Assignment_01 
 {
 =======
-//inconsistent indentation and spacing.
+
 public class YourName_Assignment_01 {
 >>>>>>> 3955adb8514d5ef6de84797be57d4df74736121d
 	public static int[] toSum = {10, 100, 1000, 10000, 100000, 1000000};
@@ -22,7 +22,7 @@ public static void timeOfA(int N) {
 	sum = sum + 1;
 }
 }
-//This algorithm B is incorrect: inner loop should go from 1 to i, inclusively.
+
 public static void timeOfB(int N) {
 	sum = 0;
 	for (int i=1; i<= N; i++) {
